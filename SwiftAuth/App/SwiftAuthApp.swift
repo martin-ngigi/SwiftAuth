@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftAuthApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            ProfileView()
         }
     }
 }

@@ -15,6 +15,8 @@
 		A3F1F5202B137E6A00BD31DA /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F1F51F2B137E6A00BD31DA /* InputView.swift */; };
 		A3F1F5222B1385C000BD31DA /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F1F5212B1385C000BD31DA /* RegistrationView.swift */; };
 		A3F1F5242B13873400BD31DA /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F1F5232B13873400BD31DA /* CustomButtonView.swift */; };
+		A3F1F5262B1390A300BD31DA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F1F5252B1390A300BD31DA /* ProfileView.swift */; };
+		A3F1F5282B1392CC00BD31DA /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F1F5272B1392CC00BD31DA /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A3F1F51F2B137E6A00BD31DA /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		A3F1F5212B1385C000BD31DA /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		A3F1F5232B13873400BD31DA /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		A3F1F5252B1390A300BD31DA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A3F1F5272B1392CC00BD31DA /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 		A3F1F51A2B137C1600BD31DA /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				A3F1F5252B1390A300BD31DA /* ProfileView.swift */,
+				A3F1F5272B1392CC00BD31DA /* SettingsRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -211,7 +217,9 @@
 				A3F1F5202B137E6A00BD31DA /* InputView.swift in Sources */,
 				A3F1F5082B137A7500BD31DA /* ContentView.swift in Sources */,
 				A3F1F5242B13873400BD31DA /* CustomButtonView.swift in Sources */,
+				A3F1F5282B1392CC00BD31DA /* SettingsRowView.swift in Sources */,
 				A3F1F5062B137A7500BD31DA /* SwiftAuthApp.swift in Sources */,
+				A3F1F5262B1390A300BD31DA /* ProfileView.swift in Sources */,
 				A3F1F5222B1385C000BD31DA /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
