@@ -12,23 +12,24 @@ struct ProfileView: View {
         List{
             Section{
                 HStack {
-                    Text("MW")
+                    Text(User.MOCK_USER.initials)
                         .font(.title)
                         .fontWeight(.semibold)
                         .frame(width: 72, height: 72)
                         .foregroundStyle(.white)
-                        .background(Color(.systemGray))
+                        .background(Color(.systemGray3))
                         .clipShape(Circle())
                     
                     VStack(alignment: .leading, spacing: 4){
-                        Text("Martin Wainaina")
+                        Text(User.MOCK_USER.fullName)
                             .fontWeight(.semibold)
                             .font(.subheadline)
                             .padding(.top, 4)
                         
-                        Text("martin@gmail.com")
+                        Text(User.MOCK_USER.email)
                             .font(.footnote)
-                            .accentColor(.gray) // SwiftUI Changes email color, so this will prevent it from changing the color
+                            //.accentColor(.gray) // SwiftUI Changes email color, so this will prevent it from changing the color
+                            .foregroundStyle(.gray)
                     }
                 }
             }
