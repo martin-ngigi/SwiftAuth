@@ -38,7 +38,7 @@ struct LoginView: View {
                 
                 // Forgot password
                 NavigationLink{
-                    
+
                 } label: {
                     HStack(){
                         Spacer()
@@ -72,7 +72,8 @@ struct LoginView: View {
                 
                 // Signup button
                 NavigationLink{
-                    
+                    RegistrationView()
+                        .navigationBarBackButtonHidden(true)
                 } label: {
                     HStack(spacing: 3){
                         Text("Don't have an account? ")
