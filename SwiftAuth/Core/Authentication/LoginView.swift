@@ -11,6 +11,13 @@ struct LoginView: View {
     @State private var email = ""
     @State private var password = ""
     
+    /**
+     StateObject has be initialized every time its being used,
+     EnvironmentObject is initialized only once and can be used through out. .... Check SwiftAuthApp folder
+     */
+    //@StateObject var viewModel = AuthViewModel()
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     
     var body: some View {
         NavigationStack{
@@ -53,7 +60,9 @@ struct LoginView: View {
                 
                 // Sign in button
                 Button{
-                    
+                    Task{
+                        try await viewModel.signIn(withEmail: email, password: password)
+                    }
                 } label: {
                     HStack{
                         Text("SignIn")
