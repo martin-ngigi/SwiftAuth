@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A390FCC52B26E05700E2C0B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A390FCC42B26E05700E2C0B5 /* GoogleService-Info.plist */; };
+		A3A0AE4E2B26F21F00216DCF /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A3A0AE4D2B26F21F00216DCF /* readme.md */; };
 		A3F1F5062B137A7500BD31DA /* SwiftAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F1F5052B137A7500BD31DA /* SwiftAuthApp.swift */; };
 		A3F1F5082B137A7500BD31DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F1F5072B137A7500BD31DA /* ContentView.swift */; };
 		A3F1F50A2B137A7700BD31DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F1F5092B137A7700BD31DA /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		A390FCC42B26E05700E2C0B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A3A0AE4D2B26F21F00216DCF /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		A3F1F5022B137A7500BD31DA /* SwiftAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F1F5052B137A7500BD31DA /* SwiftAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAuthApp.swift; sourceTree = "<group>"; };
 		A3F1F5072B137A7500BD31DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		A3F1F4F92B137A7400BD31DA = {
 			isa = PBXGroup;
 			children = (
+				A3A0AE4D2B26F21F00216DCF /* readme.md */,
 				A3F1F5042B137A7500BD31DA /* SwiftAuth */,
 				A3F1F5032B137A7500BD31DA /* Products */,
 			);
@@ -248,6 +251,7 @@
 			files = (
 				A3F1F50E2B137A7700BD31DA /* Preview Assets.xcassets in Resources */,
 				A3F1F50A2B137A7700BD31DA /* Assets.xcassets in Resources */,
+				A3A0AE4E2B26F21F00216DCF /* readme.md in Resources */,
 				A390FCC52B26E05700E2C0B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
