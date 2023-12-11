@@ -9,6 +9,10 @@ import Foundation
 import Firebase
 import FirebaseFirestoreSwift
 
+protocol AuthenticationFormProtocol{
+    var formIsValid: Bool { get }
+}
+
 @MainActor // publish all UI updates back to main thread
 class AuthViewModel: ObservableObject{
     @Published var userSession: FirebaseAuth.User?
@@ -27,6 +31,7 @@ class AuthViewModel: ObservableObject{
         do{
             print("DEBUG: clicked signIn ")
             let result = try await Auth.auth().signIn(withEmail: email, password: password)
+            //print("DEBUG: clicked signIn \(result) ")
             self.userSession = result.user
             await fetchUser()
         }

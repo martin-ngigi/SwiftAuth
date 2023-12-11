@@ -29,7 +29,7 @@ struct ProfileView: View {
                                 .font(.subheadline)
                                 .padding(.top, 4)
                             
-                            Text(User.MOCK_USER.email)
+                            Text(user.email)
                                 .font(.footnote)
                                 //.accentColor(.gray) // SwiftUI Changes email color, so this will prevent it from changing the color
                                 .foregroundStyle(.gray)
